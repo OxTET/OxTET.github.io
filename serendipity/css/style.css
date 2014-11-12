@@ -281,7 +281,7 @@ h1 {
   color: white;
 }
 
-.article-headline div {
+.article-headline .article-headline-text {
   outline: 2px solid white; 
   padding: 25px;
 } 
