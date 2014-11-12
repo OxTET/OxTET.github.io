@@ -304,9 +304,9 @@ h1 {
 
 /*See: http://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3*/
 .vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 
 .myblue {
@@ -327,4 +327,18 @@ h1 {
 
 .logoslot {
   margin-right: 20px;
+}
+
+/*Scale the Like button*/
+.fb_iframe_widget iframe{
+  transform: scale(2);
+  -ms-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  -o-transform: scale(2); 
+  -moz-transform: scale(2); 
+  transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  -webkit-transform-origin: bottom left;
+  -moz-transform-origin: bottom left;
+  -webkit-transform-origin: bottom left;
 }
