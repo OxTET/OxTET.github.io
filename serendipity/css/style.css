@@ -123,6 +123,8 @@ body {
 }
 .masthead h1 {
   font-size: 110px;
+  font-size: 5vw;
+  font-size: 14vmin;
   line-height: 1;
   letter-spacing: -2px;
 }
