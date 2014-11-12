@@ -98,20 +98,20 @@ body {
 
 /* Pattern overlay
 ------------------------- */
-.jumbotron .container {
-  position: relative;
-  z-index: 2;
-}
-.jumbotron:after {
-  content: '';
+.background-overlay {
   display: block;
-  position: absolute;
+  position: relative;
+}
+.background-overlay:after {
+  opacity: .6;
+  background: url(../img/masthead-pattern.png) repeat;
+  content: "";
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-  background: url(../img/masthead-pattern.png) repeat center center;
-  opacity: .4;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 /* Masthead (docs home)
